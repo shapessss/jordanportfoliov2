@@ -4,11 +4,11 @@ backend:
   site_domain: jordanportfoliov2.netlify.app
 
 publish_mode: editorial_workflow
-media_folder: 'assets/uploads'
+media_folder: "assets/uploads"
 collections:
-  - name: 'work'
-    label: 'Work'
-    folder: '_posts/'
+  - name: "work"
+    label: "Work"
+    folder: "_posts/"
     create: true
     extension: markdown
     format: "frontmatter"
@@ -23,18 +23,18 @@ collections:
       # - {label: "Excerpt", name: "excerpt", widget: "text"} # Custom excerpt
       
 
-  - name: 'config'
-    label: 'Config'
+  - name: "config"
+    label: "Config"
     editor:
       preview: false
     files:
-    - label: 'Navigation'
-      name: 'navigation'
-      file: '_data/navigation.yml'
+    - label: "Navigation"
+      name: "navigation"
+      file: "_data/navigation.yml"
       fields:
-        - label: 'Navigation Items'
-          name: 'items'
-          widget: 'list'
+        - label: "Navigation Items"
+          name: "items"
+          widget: "list"
           fields:
             - { label: Name, name: name, widget: string }
             - { label: Link, name: link, widget: string }
