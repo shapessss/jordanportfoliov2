@@ -14,7 +14,7 @@ collections:
 
     fields:
       - {label: "Client", name: "title", widget: "string"}
-      - {label: "Service", name: "category", widget: "select", multiple: true, options: ["Design", "UX", "Website", "Dev"], default: ["Design"]}
+      - {label: "Service", name: "category", widget: "string"}
       - {label: "Project URL", name: "project_url", widget: "string"}
       - {label: "Featured image", name: "featured_image", widget: "image"}
       - {label: "Alt", name: "alt", widget: "string"}
