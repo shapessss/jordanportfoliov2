@@ -1,0 +1,19 @@
+<header class="header-global wrapper">
+    <nav>
+        <ul class="nav-pill">
+            {% for item in site.data.navigation.items %}
+            <li class="nav-pill-item">
+                <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="selected"{% endif %}>
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <li class="nav-pill-indicator"></li>
+        </ul>
+    </nav>
+
+    <a href="mailto:talk@jordandelgado.net" target="_blank" class="is-available">
+        <span>Available for new projects</span>
+        <div class="circle-available"></div>
+    </a>
+</header>

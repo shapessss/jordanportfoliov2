@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="project-content">
+    <div class="work-featured-image">
+        <img src="{{ page.featured_image }}" alt="{{ page.alt }}">
+    </div>
+    
+    <div class="work-info wrapper grid">
+        <div class="work-info-list">
+            <div class="credit-client">
+                <h2>Client</h2>
+                <span>{{ page.title }}</span>
+            </div>
+
+            <div class="credit-service">
+                <h2>Service</h2>
+                <span>{{ page.category }}</span>
+            </div>
+
+            <div class="credit-url">
+                <a href="{{ page.project_url }}" target="_blank">
+                    <span>Launch project</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="work-info-content">
+            <p>{{ page.excerpt }}</p>
+        </div>
+    </div>
+    
+
+    <div class="work-content">
+        {{ content }}
+    </div>
+</div>
+
+{% include copyright.html %}

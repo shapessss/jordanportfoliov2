@@ -1,0 +1,9 @@
+---
+title: "This is my new post"
+category: "Website"
+project_url: "https://quebracho.mx/"
+featured_image: /assets/uploads/project_2.jpg
+alt: "Project 2"
+---
+
+Hello this is a demo and looks wonderful!

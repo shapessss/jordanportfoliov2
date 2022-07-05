@@ -1,0 +1,30 @@
+---
+layout: default
+title: Work
+---
+<div class="section-projects">
+    {% for post in site.posts %}
+        <div class="card-project">
+            <a href="{{ post.url }}" class="to-project">
+                <div class="card-project-image">
+                    <img src="{{ post.featured_image }}" alt="{{ post.alt }}">
+
+                    <div class="card-info-project">
+                        <div class="card-info-project-bottom wrapper">
+                            <div class="card-info-project-bottom-title">
+                                <h3>{{ post.category }}</h3>
+                                <h2>{{ post.title }}</h2>
+                            </div>
+
+                            <div class="card-info-project-bottom-button">
+                                <h2>Open project</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+</div>
+
+{% include copyright.html %}
