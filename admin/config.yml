@@ -14,9 +14,9 @@ collections:
 
     fields:
       - {label: "Client", name: "title", widget: "string"}
-      - {label: "Service", name: "service", widget: "select", multiple: true, options: ["Design", "UX", "Website", "Dev"], default: ["Design"]}
-      - {label: "Project URL", name: "url", widget: "string"}
-      - {label: "Featured image", name: "thumbnail", widget: "image"}
+      - {label: "Service", name: "category", widget: "select", multiple: true, options: ["Design", "UX", "Website", "Dev"], default: ["Design"]}
+      - {label: "Project URL", name: "project_url", widget: "string"}
+      - {label: "Featured image", name: "featured_image", widget: "image"}
       - {label: "Alt", name: "alt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"} # Mandatory body field for markdown files
       # - {label: "Excerpt", name: "excerpt", widget: "text"} # Custom excerpt
