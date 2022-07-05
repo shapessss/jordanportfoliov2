@@ -5,36 +5,37 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: "assets/uploads"
+
 collections:
-  - name: "work"
-    label: "Work"
-    folder: "_posts/"
-    create: true
+  - name: "work"      # Used in routes, e.g., /admin/collections/blog
+    label: "Work"     # Used in the UI
+    folder: "_posts/"  # The path to the folder where the documents are stored
+    create: true      # Allow users to create new documents in this collection
+    # slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: markdown
     format: "frontmatter"
 
-    fields:
+    fields: # The front matter fields for each document
       - {label: "Client", name: "title", widget: "string"}
       - {label: "Service", name: "category", widget: "string"}
       - {label: "Project URL", name: "project_url", widget: "string"}
       - {label: "Featured image", name: "featured_image", widget: "image"}
       - {label: "Alt", name: "alt", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"} # Mandatory body field for markdown files
       # - {label: "Excerpt", name: "excerpt", widget: "text"} # Custom excerpt
-      
+      - {label: "Body", name: "body", widget: "markdown"} # Mandatory body field for markdown files
 
-  - name: "config"
-    label: "Config"
+  - name: 'config'
+    label: 'Config'
     editor:
       preview: false
     files:
-    - label: "Navigation"
-      name: "navigation"
-      file: "_data/navigation.yml"
+    - label: 'Navigation'
+      name: 'navigation'
+      file: '_data/navigation.yml'
       fields:
-        - label: "Navigation Items"
-          name: "items"
-          widget: "list"
+        - label: 'Navigation Items'
+          name: 'items'
+          widget: 'list'
           fields:
             - { label: Name, name: name, widget: string }
             - { label: Link, name: link, widget: string }
