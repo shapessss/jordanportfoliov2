@@ -3,6 +3,7 @@ backend:
   branch: main
   site_domain: jordandelgadov2.netlify.app
 
+publish_mode: editorial_workflow
 media_folder: 'assets/uploads'
 collections:
   - name: 'work'
