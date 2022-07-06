@@ -1,0 +1,8 @@
+---
+title: Client 4
+category: Website / Dev
+project_url: https://google.com/
+featured_image: /assets/uploads/aria-indoor-17222004-d-2-pro-g-arcit18.jpeg
+alt: Client 4 Thumbnail
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit eros pharetra nisl pellentesque, tempor hendrerit enim porttitor. Aenean a tortor blandit, tincidunt nulla volutpat, sodales enim. Curabitur in lorem ac orci interdum luctus. Morbi arcu dui, cursus et tincidunt sed, auctor sit amet tortor. Nullam et justo tristique, vestibulum dui nec, tristique mi. Integer interdum sodales tellus nec convallis. Integer at fringilla ante.
