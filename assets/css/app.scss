@@ -138,7 +138,7 @@ h1,
 h2,
 .h2 {
     font-size: $type-headline-med;
-    line-height: $line-global * 2;
+    line-height: 1.5;
 }
 
 h3,
@@ -479,6 +479,7 @@ p {
                     &::after {
                         content: url(/assets/uploads/arrow-up-right.svg);
                         display: inline-block;
+                        vertical-align: middle;
                         margin-left: $line-global/2
                     }
                 }
@@ -613,7 +614,7 @@ p {
     }
 
     h2 {
-        font-size: 18px;
+        font-size: $type-body-med;
     }
 
     .work-content {
@@ -639,6 +640,12 @@ p {
         .card-project {
             .card-project-image {
                 .card-info-project-bottom {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-end;
+                    padding-bottom: $line-global;
+                    grid-row-gap: $line-global/2;
+
                     h3 {
                         margin-bottom: 0;
                     }
@@ -667,5 +674,59 @@ p {
         align-items: flex-start;
         flex-direction: column;
         grid-row-gap: $line-global;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-global {
+        nav {
+            ul {
+                li {
+                    width: 7rem !important;
+                }
+            }
+
+            .nav-pill {
+                &-indicator {
+                    width: 7rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .header-global {
+        nav {
+            ul {
+                li {
+                    width: 6rem !important;
+                }
+            }
+
+            .nav-pill {
+                &-indicator {
+                    width: 6rem !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .header-global {
+        nav {
+            ul {
+                li {
+                    width: 5rem !important;
+                }
+            }
+
+            .nav-pill {
+                &-indicator {
+                    width: 5rem !important;
+                }
+            }
+        }
     }
 }
