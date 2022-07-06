@@ -433,14 +433,13 @@ p {
 .section-projects {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-row-gap: $offset-global*2;
 
     .card-project {
         grid-column: 1/13;
     
         .card-project-image {
             position: relative;
-            height: 80vmin;
+            height: 100vmin;
     
             img {
                 display: block;
@@ -491,7 +490,7 @@ p {
 // Work content
 .work-featured-image {
     position: relative;
-    height: 80vmin;
+    height: 100vmin;
 
     img {
         display: block;
@@ -635,8 +634,7 @@ p {
     }
 
     .section-projects {
-        grid-row-gap: 0;
-
+        
         .card-project {
             .card-project-image {
                 .card-info-project-bottom {
