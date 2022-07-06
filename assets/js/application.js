@@ -72,16 +72,19 @@ var animInterval = window.setInterval(() => {
     i = ++i % words.length; // Add 1 until it reaches 5, then back to 0, 1, 2...
 }, 1000);
 
-if (window.netlifyIdentity) {
-    window
-    .netlifyIdentity
-    .on("init", user => {
-        if (!user) {
-        window
-            .netlifyIdentity
-            .on("login", () => {
-            document.location.href = "/admin/#";
-            });
-        }
-    });
-}
+
+
+
+// if (window.netlifyIdentity) {
+//     window
+//     .netlifyIdentity
+//     .on("init", user => {
+//         if (!user) {
+//         window
+//             .netlifyIdentity
+//             .on("login", () => {
+//             document.location.href = "/admin/#";
+//             });
+//         }
+//     });
+// }
