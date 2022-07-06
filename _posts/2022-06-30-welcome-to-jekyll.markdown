@@ -1,7 +1,8 @@
 ---
 title: "Esphora"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at efficitur eros. Ut facilisis orci vitae leo auctor pretium. Donec vel neque venenatis, euismod erat ac, auctor elit. Maecenas nec laoreet felis. Vestibulum a tempor elit, at efficitur libero. Nam pellentesque bibendum arcu ac pulvinar. Quisque varius nisl semper nisl egestas, sed blandit sapien blandit."
-category: "Website"
+category: "work"
+service: website
 project_url: "https://esphora.mx/"
 featured_image: /assets/uploads/project_1.jpg
 alt: "Project 1"

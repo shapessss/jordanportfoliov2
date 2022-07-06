@@ -17,7 +17,8 @@ collections:
 
     fields: # The front matter fields for each document
       - {label: "Client", name: "title", widget: "string"}
-      - {label: "Service", name: "category", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Service", name: "service", widget: "string"}
       - {label: "Project URL", name: "project_url", widget: "string"}
       - {label: "Featured image", name: "featured_image", widget: "image"}
       - {label: "Alt", name: "alt", widget: "string"}

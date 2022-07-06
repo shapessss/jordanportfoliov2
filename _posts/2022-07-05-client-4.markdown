@@ -1,6 +1,7 @@
 ---
 title: Client 4
-category: Website / Dev
+category: work
+service: website
 project_url: https://google.com/
 featured_image: /assets/uploads/aria-indoor-17222004-d-2-pro-g-arcit18.jpeg
 alt: Client 4 Thumbnail

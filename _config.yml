@@ -67,4 +67,4 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-permalink: /work/:title/
+permalink: /:categories/:title/
