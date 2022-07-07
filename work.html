@@ -3,7 +3,8 @@ layout: default
 title: Work
 ---
 <div class="section-projects">
-    {% for post in site.posts %}
+    {% assign sorted = site.posts | sort: 'post_date' | reverse %}
+    {% for post in sorted %}
         <div class="card-project">
             <a href="{{ post.url }}" class="to-project">
                 <div class="card-project-image">

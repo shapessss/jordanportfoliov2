@@ -36,4 +36,23 @@ layout: default
     </div>
 </div>
 
+<!-- {% if page.previous %} 
+        <span class="previous-link">
+        <a rel="prev" href="{{ page.previous.url }}">Previous Entry</a>
+        </span>
+{% endif %} -->
+    
+{% if page.next %} 
+    <a rel="next" href="{{ page.next.url }}">
+    <div class="next-link">
+        <img src="{{ page.next.featured_image }}">
+
+        <div class="next-link-project-title">
+            <span>Next project</span>
+            <h1>{{ page.next.title }}</h1>
+        </div>
+    </div>
+    </a>
+{% endif %}
+
 {% include copyright.html %}
