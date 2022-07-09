@@ -439,7 +439,7 @@ p {
     
         .card-project-image {
             position: relative;
-            height: auto;
+            height: 100vmin;
     
             img {
                 display: block;
@@ -663,6 +663,8 @@ p {
         
         .card-project {
             .card-project-image {
+                height: auto;
+
                 .card-info-project-bottom {
                     flex-direction: column;
                     align-items: flex-start;
