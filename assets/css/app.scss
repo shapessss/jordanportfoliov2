@@ -439,7 +439,7 @@ p {
     
         .card-project-image {
             position: relative;
-            height: 100vmin;
+            height: auto;
     
             img {
                 display: block;
@@ -490,7 +490,7 @@ p {
 // Work content
 .work-featured-image {
     position: relative;
-    height: 100vmin;
+    height: auto;
 
     img {
         display: block;
@@ -503,7 +503,6 @@ p {
 .work-info {
     grid-template-columns: repeat(12, 1fr);
     margin: $offset-global 0;
-    height: 320px;
 
     .work-info-list {
         grid-column: 1/5;
@@ -539,7 +538,7 @@ p {
     img {
         display: block;
         width: 100%;
-        height: 100vmin;
+        height: 100%;
         object-fit: cover;
         margin-bottom: $offset-global;
     }
@@ -553,7 +552,7 @@ p {
 
 .next-link {
     position: relative;
-    height: 80vmin;
+    height: auto;
     margin-top: $offset-global*2 + $line-global;
 
     img {
@@ -568,21 +567,13 @@ p {
         width: 100%;
         height: 100%;
         top: 0;
-        left: 9;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        transition: opacity .1s linear;
-        -webkit-transition: opacity .1s linear;
-        -moz-transition: opacity .1s linear;
-        -ms-transition: opacity .1s linear;
-        -o-transition: opacity .1s linear;
-
-        &:hover {
-            opacity: 1;
-        }
+        left: 0;
+        padding-top: $offset-global;
+        // transition: opacity .1s linear;
+        // -webkit-transition: opacity .1s linear;
+        // -moz-transition: opacity .1s linear;
+        // -ms-transition: opacity .1s linear;
+        // -o-transition: opacity .1s linear;
     }
 }
 
@@ -705,10 +696,14 @@ p {
 
     .next-link {
         .next-link-project-title {
-            opacity: 1;
+            padding-top: $line-global;
+
+            span {
+                text-decoration: underline;
+            }
 
             h1 {
-                font-size: $type-headline-med;
+                display: none;
             }
         }
     }
