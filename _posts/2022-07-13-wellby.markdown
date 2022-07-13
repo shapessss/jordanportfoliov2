@@ -13,3 +13,5 @@ excerpt: Wellby es una tienda de estilo de vida que vende un surtido limitado de
 ![Wellby](/assets/uploads/wellby-3.webp "Wellby Product")
 
 ![Wellby](/assets/uploads/wellby-4.webp "Wellby Cart")
+
+![](/assets/uploads/wellby-mobile.webp)
