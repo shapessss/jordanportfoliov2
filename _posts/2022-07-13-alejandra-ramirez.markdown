@@ -1,6 +1,6 @@
 ---
 title: Alejandra Ramirez
-category: web
+category: work
 service: Website
 project_url: https://www.alejandraramirez.com.mx/
 featured_image: /assets/uploads/alejandra-1.webp
