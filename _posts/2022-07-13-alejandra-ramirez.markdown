@@ -5,9 +5,9 @@ service: Website
 project_url: https://www.alejandraramirez.com.mx/
 featured_image: /assets/uploads/alejandra-1.webp
 alt: Alejandra Ramirez
-excerpt: Alejandra Ramírez es una artista digital y diseñadora gráfica enfocada
-  en el branding y diseño de identidades. Fui el encargado de diseñar un
-  portafolio web para mostrar sus más recientes y destacados trabajos.
+excerpt: Alejandra Ramirez is a digital artist and graphic designer focused on
+  branding and identity design. I was commissioned to design a web portfolio to
+  showcase her most recent and outstanding work.
 ---
 ![Alejandra Ramirez](/assets/uploads/alejandra-2.webp "Alejandra Ramirez Works")
 
