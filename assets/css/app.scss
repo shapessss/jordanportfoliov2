@@ -711,13 +711,6 @@ p {
     .work-info {
         grid-template-columns: repeat(4, 1fr);
 
-        .work-info-list {
-            grid-row: 1;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-
         .work-info-content {
             grid-row: 2;
             grid-column: 1/5;
