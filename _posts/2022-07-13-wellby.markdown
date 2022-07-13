@@ -5,8 +5,8 @@ service: Ecommerce
 project_url: https://jordan-delgado-superhi-project-4.myshopify.com/
 featured_image: /assets/uploads/wellby-1.webp
 alt: Wellby
-excerpt: Wellby es una tienda de estilo de vida que vende un surtido limitado de
-  productos hechos a mano en su estudio de Silver Lake, Los Angeles.
+excerpt: Wellby is a lifestyle shop that sells a limited assortment of handmade
+  products from its studio in Silver Lake, Los Angeles.
 ---
 ![Wellby](/assets/uploads/wellby-2.webp "Wellby Products")
 
@@ -14,4 +14,4 @@ excerpt: Wellby es una tienda de estilo de vida que vende un surtido limitado de
 
 ![Wellby](/assets/uploads/wellby-4.webp "Wellby Cart")
 
-![](/assets/uploads/wellby-mobile.webp)
+![Wellby](/assets/uploads/wellby-mobile.webp "Wellby Mobile")
