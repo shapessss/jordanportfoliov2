@@ -8,7 +8,7 @@ var words = [
     "personas.",
     "prototypes.",
     "Web Apps.",
-    "cloud services"
+    "cloud services."
 ];
 
 var i = 1 // Start at 1 because 0 is already displayed
