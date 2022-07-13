@@ -556,7 +556,7 @@ p {
 
 .next-link {
     position: relative;
-    height: auto;
+    height: 100vmin;
     margin-top: $offset-global*2 + $line-global;
 
     img {
@@ -722,6 +722,8 @@ p {
     }
 
     .next-link {
+        height: auto;
+
         .next-link-project-title {
             padding-top: $line-global;
 
