@@ -22,7 +22,7 @@ collections:
       - {label: "Project URL", name: "project_url", widget: "string"}
       - {label: "Featured image", name: "featured_image", widget: "image"}
       - {label: "Alt", name: "alt", widget: "string"}
-      # - {label: "Excerpt", name: "excerpt", widget: "text"} # Custom excerpt
+      - {label: "Excerpt", name: "excerpt", widget: "text"} # Custom excerpt
       - {label: "Body", name: "body", widget: "markdown"} # Mandatory body field for markdown files
 
   - name: 'config'
