@@ -394,7 +394,7 @@ p {
         .interval {
             font-family: $headline-font;
             display: inline-block;
-            width: 250px;
+            width: 350px;
             text-align: left;
         }
     }
@@ -414,18 +414,18 @@ p {
     }
 
     .image-1 {
-        left: $offset-global*4;
+        left: $offset-global*5;
         top: -$line-global*2;
     }
 
     .image-2 {
-        right: $offset-global*7;
-        top: -$line-global*4;
+        right: $offset-global*12;
+        top: $offset-global*2;
     }
 
     .image-3 {
         left: $offset-global*11;
-        bottom: -$offset-global*3;
+        bottom: -$offset-global;
     }
 }
 
@@ -454,7 +454,7 @@ p {
                 left: 0;
                 width: 100%;
                 height: 100%;
-                color: $white;
+                color: $black;
             }
     
             .card-info-project-bottom {
@@ -540,13 +540,17 @@ p {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        margin-bottom: $offset-global;
+        // margin-bottom: $offset-global;
     }
     
     p {
         padding-left: $offset-global;
         padding-right: $offset-global;
         margin-bottom: $offset-global;
+
+        &:first-of-type {
+            margin-top: $offset-global;
+        }
     }
 }
 
@@ -632,6 +636,22 @@ p {
 }
 
 // Responsive
+@media (max-width: 1200px) {
+    .intro {
+        .image-2 {
+            right: $offset-global*2;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .intro {
+        .image-3 {
+            bottom: $offset-global;
+        }
+    }
+}
+
 @media (max-width: 725px) {
     .wrapper {
         padding-left: $line-global;
@@ -657,6 +677,14 @@ p {
 
     #app {
         padding-top: $offset-global;
+    }
+
+    .intro {
+        .image-1,
+        .image-2,
+        .image-3 {
+            display: none;
+        }
     }
 
     .section-projects {

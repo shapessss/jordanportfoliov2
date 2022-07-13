@@ -1,8 +1,8 @@
 ---
 title: Estrella Graphic Designer
 category: work
-service: website
-project_url: https://youtube.com/
+service: Web App
+project_url: https://www.internetpublicradio.live/
 featured_image: /assets/uploads/screenshot-demo.jpg
 alt: Estrella
 ---

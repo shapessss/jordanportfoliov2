@@ -2,14 +2,16 @@
 title: "Esphora"
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at efficitur eros. Ut facilisis orci vitae leo auctor pretium. Donec vel neque venenatis, euismod erat ac, auctor elit. Maecenas nec laoreet felis. Vestibulum a tempor elit, at efficitur libero. Nam pellentesque bibendum arcu ac pulvinar. Quisque varius nisl semper nisl egestas, sed blandit sapien blandit."
 category: "work"
-service: website
+service: Website
 project_url: "https://esphora.mx/"
-featured_image: /assets/uploads/project_1.jpg
+featured_image: /assets/uploads/ipr-1.webp
 alt: "Project 1"
 ---
-![The San Juan Mountains are beautiful!](/assets/uploads/project_example.jpg "San Juan Mountains")
+![The San Juan Mountains are beautiful!](/assets/uploads/ipr-2.webp "San Juan Mountains")
 
-![The San Juan Mountains are beautiful!](/assets/uploads/project_example.jpg "San Juan Mountains")
+![The San Juan Mountains are beautiful!](/assets/uploads/ipr-3.webp "San Juan Mountains")
+
+![The San Juan Mountains are beautiful!](/assets/uploads/ipr-4.webp "San Juan Mountains")
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
