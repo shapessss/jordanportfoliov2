@@ -11,3 +11,5 @@ excerpt: Esta es una tienda en linea desarrollada para una marca de bandas que
 ![Fitra](/assets/uploads/fitra-2.webp "Fitra Cart")
 
 ![Fitra](/assets/uploads/fitra-3.webp "Fitra Variant")
+
+![Fitra](/assets/uploads/fitra-mobile.webp "Fitra Mobile")
