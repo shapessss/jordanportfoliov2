@@ -1,0 +1,13 @@
+---
+title: Fitra
+category: work
+service: Ecommerce
+project_url: https://fitra-wellness.myshopify.com/
+featured_image: /assets/uploads/fritra-1.webp
+alt: Fitra
+excerpt: Esta es una tienda en linea desarrollada para una marca de bandas que
+  monitorean en tiempo real la actividad del cuerpo y nuestros pasos.
+---
+![Fitra](/assets/uploads/fitra-2.webp "Fitra Cart")
+
+![Fitra](/assets/uploads/fitra-3.webp "Fitra Variant")
