@@ -490,7 +490,7 @@ p {
 // Work content
 .work-featured-image {
     position: relative;
-    height: auto;
+    height: 100vmin;
 
     img {
         display: block;
@@ -667,6 +667,10 @@ p {
             padding-left: $line-global;
             padding-right: $line-global;
         }
+    }
+
+    .work-featured-image {
+        height: auto;
     }
 
     .header-global {
