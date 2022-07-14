@@ -6,7 +6,7 @@ project_url: https://www.quebracho.mx/
 featured_image: /assets/uploads/quebracho-1.webp
 alt: Quebracho Estudio
 excerpt: >-
-  It is a branding studio based in Guadalajara, Mexico.
+  It's a branding studio based in Guadalajara, Mexico.
 
   I was in charge of designing and developing their portfolio and we worked on some projects together last year.
 ---
