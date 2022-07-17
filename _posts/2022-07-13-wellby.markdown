@@ -14,4 +14,4 @@ excerpt: Wellby is a lifestyle shop that sells a limited assortment of handmade
 
 ![Wellby](/assets/uploads/wellby-4.webp "Wellby Cart")
 
-![Wellby](/assets/uploads/wellby-mobile.webp "Wellby Mobile")
+![Wellby](/assets/uploads/wellby-mobile-2.webp "Wellby Mobile")
