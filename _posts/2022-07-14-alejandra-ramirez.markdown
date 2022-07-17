@@ -13,4 +13,4 @@ excerpt: Alejandra Ramirez is a digital artist and graphic designer focused on
 
 ![Alejandra Ramirez](/assets/uploads/alejandra-3.webp "Alejandra Ramirez About")
 
-![Alejandra Ramirez](/assets/uploads/alejandra-mobile-2.webp "Alejandra Ramirez Mobile")
+![Alejandra Ramirez](/assets/uploads/alejandra-mobile-3.webp "Alejandra Ramirez Mobile")
