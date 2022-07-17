@@ -12,4 +12,4 @@ excerpt: This is an online shop developed for a brand of bands that monitor in
 
 ![Fitra](/assets/uploads/fitra-3.webp "Fitra Variant")
 
-![Fitra](/assets/uploads/fitra-mobile.webp "Fitra Mobile")
+![Fitra](/assets/uploads/fitra-mobile-2.webp "Fitra Mobile")
