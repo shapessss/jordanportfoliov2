@@ -60,9 +60,8 @@ window.addEventListener("resize", () => {
 function currentYear() {
     const d = new Date()
     const n = d.getFullYear()
-    document.querySelector("copyright-span").innerHTML = '&copy; Copyright ' + n
+    document.getElementById('copyright-span').innerHTML = '&copy; Copyright ' + n
 }
-
 currentYear()
 
 // if (window.netlifyIdentity) {
