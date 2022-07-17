@@ -20,4 +20,4 @@ excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta
 
 ![Internet Public Radio](/assets/uploads/ipr-4.webp "Internet Public Radio Schedule")
 
-![Internet Public Radio](/assets/uploads/ipr-mobile.webp "Internet Public Radio Mobile")
+![Internet Public Radio](/assets/uploads/ipr-mobile-2.webp "Internet Public Radio Mobile")
