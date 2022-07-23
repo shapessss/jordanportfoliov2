@@ -1,0 +1,25 @@
+---
+title: MX Chalk
+category: web
+service: Website
+project_url: https://www.mxchalk.mx/
+featured_image: /assets/uploads/mxchalk-1.webp
+alt: MX Chalk
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
+  sodales lorem. Donec porta, tortor ut egestas fermentum, ante odio pretium ex,
+  eu tincidunt sapien ex rhoncus augue. Nullam euismod dictum libero in iaculis.
+  Phasellus eleifend arcu ac malesuada efficitur. Quisque tristique massa a
+  risus vehicula tempus eu vitae ipsum. In facilisis ex consectetur, semper
+  lectus quis, semper tortor. Vivamus dictum consectetur arcu ut pretium.
+  Vestibulum sed luctus risus. Cras ut placerat lorem. Phasellus maximus
+  sollicitudin consequat. Nunc eget dignissim lacus, a egestas tellus. Ut
+  ultrices rutrum mauris vitae feugiat. Nam mollis convallis magna, quis
+  venenatis mi finibus eu. Maecenas ex sapien, dignissim a nulla sit amet,
+  mollis ornare velit. Nullam at lacus non neque tempus fermentum. Quisque
+  fermentum leo massa, nec rhoncus magna blandit non.
+---
+![MX Chalk](/assets/uploads/mxchalk-2.webp "MX Chalk About")
+
+![MX Chalk](/assets/uploads/mxchalk-3.webp "MX Chalk Products")
+
+![MX Chalk](/assets/uploads/mxchalk-mobile.webp "MX Chalk Mobile")
